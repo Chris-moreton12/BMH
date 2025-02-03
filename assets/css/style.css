@@ -116,3 +116,43 @@ footer {
 .home-list p {
     margin: 5px 0 0;
 }
+
+#bmh-logo {
+    margin-left: 600px;
+    height:250px;
+    width:250px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 100vh; /* Adjusts the height to fill the viewport */
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image img {
+    width: 400px;
+    height: 400px;
+}
+
